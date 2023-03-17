@@ -1,0 +1,64 @@
+lecznica
+
+klasy:
+//klient, wizyta, zwierzę, recepcja, pracownik, osoba, lekarz, produkt, dostawca, laboratorium, dział, księgowość, raport
+
+
+osoba -> klient, pracownik -> lekarz, sekretarz, laborant, kierownik, wolontariusz i inne stanowiska
+dział -> księgowość, recepcja, gabinet, magazyn, laboratorium i inne
+sprzedawanie
+raport -> raport bardziej specyficzny
+logowanie, choroba, lek, panel klienta?, zwierzę
+
+
+wymaganie fukcnonalne:
+- logowanie sie poczytac bo problematyczne
+- umawianie wizyt
+- przegladanie strony www
+- crud badania
+- crud pracownicy
+- crud pacjencji
+- crud leki
+- crud akcesoria
+- crud dokumenty
+- crud dzialy
+- crud choroby
+- crud zwierze
+
+wymaganie niefunkcjonalne
+- szybkosc dzialania
+- bezpieczenstwo
+- archiwizacja
+- przyjazny interfejs uzytkownika
+- skalowalnos (k8s)
+- przenosnosc
+- prosta administracja
+- Odporność na wprowadzanie niepoprawnych danych
+- 
+use case:
+ - klient
+	- crud wizyty
+	- crud zwierze
+	- crud siebie samego
+- doktor
+- 
+    - odczyt wizyty
+    - crud choroby
+    - crud leki
+    - crud dokumenty
+ - sekretarka
+	- crud wizyty
+	- crud pracownikow
+	- crud dokumenty
+	- crud dzialy
+	- crud leki
+	- crud choroby
+ - laboratorant
+	- crud choroby
+	- crud leki
+  	- crud dokumenty
+- admin
+    - crud *
+ - volunterr
+	- crud akcesoria i jedzenie
+	-  model przypadkow uzycia
