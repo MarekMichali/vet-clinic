@@ -1,0 +1,10 @@
+Nasza lecznica chciałaby posiadać system informatyczny, który posłuży sprawniejszemu funkcjonowaniu obsługi pupili naszych klientów oraz umożliwi przedstawienie naszej oferty szerszej społecznoścu (w chwli obecnej mamy niewielu klientów). W chwili obecnej lecznica oferuje bogaty asortyment usług dla rozmaitych zwierząt. Ich właściciele są najczęściej stałymi klientami lecznicy. Oprócz doraźnego leczenia możliwa jest też hospitalizacja zwierząt. Prowadzimy ponadto sprzedaż leków, karm różnych firm i innych akcesoriów dla zwierząt. W lecznicy pracuje kilku lekarzy weterynarii oraz personel pomocniczy (w tym: wolonariusze). System ma być kompleksowym narzędziem pozwalającym na prawidłowe funkcjonowanie lecznicy.
+
+Zakres projektu:
+1. Obsługa klienta (w tym wspomaganie rozliczeń finansowych z klientami)
+2. Obsługa recepcji
+3. Obsługa lekarzy weterynarii
+4. Obsługa sprzedaży akcesoriów i ich dostawców
+5. Obsługa laboratorium
+6. Obsługa kierownictwa lecznicy (raport)
+Uwaga! Powinno się zapewnić pamiętanie historii lub/i archiwizowanie danych
