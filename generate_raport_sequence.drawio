@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="hrDizmAoiEksj0nWwZ9k" name="Page-1">
-        <mxGraphModel dx="2066" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#18141D" math="0" shadow="0">
+        <mxGraphModel dx="1682" dy="359" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#18141D" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -10,7 +10,7 @@
                 <mxCell id="6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="2" vertex="1">
                     <mxGeometry x="5" y="80" width="10" height="660" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="System online" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="1" vertex="1">
+                <mxCell id="3" value="worker-control" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="1" vertex="1">
                     <mxGeometry x="310" y="40" width="100" height="760" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="3" vertex="1">
@@ -44,7 +44,7 @@
                         <mxPoint x="44.99999999999994" y="630.36" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="4" value="Generator raportów" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="1" vertex="1">
+                <mxCell id="4" value="Raport" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="1" vertex="1">
                     <mxGeometry x="560" y="40" width="150" height="760" as="geometry"/>
                 </mxCell>
                 <mxCell id="31" style="edgeStyle=none;html=1;startArrow=open;startFill=0;endArrow=open;endFill=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="4" source="10" target="4" edge="1">
