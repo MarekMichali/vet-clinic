@@ -1,0 +1,95 @@
+<mxfile host="65bd71144e">
+    <diagram id="ePasVhQ69UDP-81yUcrA" name="Page-1">
+        <mxGraphModel dx="948" dy="359" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" edge="1" parent="1" source="4" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Zarejestruj zwierzę" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#F0F0F0;fillColor=#18141D;labelBackgroundColor=#18141D;" vertex="1" connectable="0" parent="2">
+                    <mxGeometry x="-0.5455" y="-5" relative="1" as="geometry">
+                        <mxPoint x="25" y="-20" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="" style="ellipse;fillColor=#F0F0F0;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="195" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="ellipse;html=1;shape=endState;fillColor=#F0F0F0;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" vertex="1" parent="1">
+                    <mxGeometry x="495" y="455" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;fillColor=#18141D;" edge="1" parent="1" source="10" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Anulowanie badana" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#F0F0F0;fillColor=#18141D;labelBackgroundColor=#18141D;" vertex="1" connectable="0" parent="6">
+                    <mxGeometry x="-0.46" y="-2" relative="1" as="geometry">
+                        <mxPoint x="2" y="26" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;fillColor=#18141D;" edge="1" parent="1" source="10" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Diagnozuj zwierzę" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#F0F0F0;fillColor=#18141D;labelBackgroundColor=#18141D;" vertex="1" connectable="0" parent="8">
+                    <mxGeometry x="-0.2235" y="1" relative="1" as="geometry">
+                        <mxPoint x="14" y="-14" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="Zwierzę zarejestrowane" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="180" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;fillColor=#18141D;" edge="1" parent="1" source="12" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Stan zdrowia nieznany" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Wdrożenie planu leczenia" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="14" target="24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Rezygnacja z leczenia" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="14" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Zwierzę chore" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="320" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;fillColor=#18141D;" edge="1" parent="1" source="19" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Pozytywne wyniki badań" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#F0F0F0;fillColor=#18141D;labelBackgroundColor=#18141D;" vertex="1" connectable="0" parent="15">
+                    <mxGeometry x="-0.2634" y="5" relative="1" as="geometry">
+                        <mxPoint x="-30" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;fillColor=#18141D;" edge="1" parent="1" source="19" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Negatywne wyniki badań" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#F0F0F0;fillColor=#18141D;labelBackgroundColor=#18141D;" vertex="1" connectable="0" parent="17">
+                    <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
+                        <mxPoint x="-1" y="20" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="Oczekiwanie na wyniki" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;fillColor=#18141D;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="180" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="22" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Zwierzę zdrowe" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;fillColor=#18141D;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="320" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Diagnozuj zwierzę" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="24" target="19">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="840" y="484.52941176470586" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="840" y="485"/>
+                            <mxPoint x="840" y="210"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="Zwierzę leczone" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="455" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
