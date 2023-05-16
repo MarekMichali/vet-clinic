@@ -1,10 +1,10 @@
 <mxfile host="65bd71144e">
     <diagram id="XZCfxcnbnxCZCc5oeZcc" name="Page-1">
-        <mxGraphModel dx="1745" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#18141D" math="0" shadow="0">
+        <mxGraphModel dx="2066" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#18141D" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="Lekarz lub Laborant" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=none;size=40;" parent="1" vertex="1">
+                <mxCell id="2" value="Lekarz lub Laborant" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;size=40;" parent="1" vertex="1">
                     <mxGeometry x="70" y="30" width="20" height="880" as="geometry"/>
                 </mxCell>
                 <mxCell id="66" style="edgeStyle=none;html=1;labelBackgroundColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;fillColor=#18141D;" parent="2" source="3" target="2" edge="1">
@@ -78,7 +78,7 @@
                         <mxPoint x="374.4100000000001" y="189.07999999999998" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="39" value="Klient" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=none;" parent="1" vertex="1">
+                <mxCell id="39" value="Klient" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="1" vertex="1">
                     <mxGeometry x="-250" y="40" width="20" height="870" as="geometry"/>
                 </mxCell>
                 <mxCell id="64" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="39" vertex="1">
@@ -99,7 +99,7 @@
                         <mxPoint x="369.5" y="139" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="44" value="Przekaż informację o zarejestrowaniu pacjenta" style="endArrow=none;dashed=1;html=1;startArrow=open;startFill=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;entryX=1;entryY=0.943;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" edge="1" target="65">
+                <mxCell id="44" value="Przekaż informację o zarejestrowaniu pacjenta" style="endArrow=none;dashed=1;html=1;startArrow=open;startFill=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;entryX=1;entryY=0.943;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" target="65" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="95" y="236.33999999999992" as="sourcePoint"/>
                         <mxPoint x="-220" y="440" as="targetPoint"/>
@@ -136,31 +136,31 @@
                         <mxPoint x="330" y="624" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="60" value="Wprowadź plan leczenia" style="endArrow=classic;html=1;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;entryX=-0.088;entryY=0.728;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="53" source="2">
+                <mxCell id="60" value="Wprowadź plan leczenia" style="endArrow=classic;html=1;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;entryX=-0.088;entryY=0.728;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" target="53" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="110" y="770" as="sourcePoint"/>
                         <mxPoint x="340" y="770" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="63" value="Opłać wizytę" style="endArrow=classic;html=1;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;exitX=1.034;exitY=0.272;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" target="67" source="64">
+                <mxCell id="63" value="Opłać wizytę" style="endArrow=classic;html=1;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;exitX=1.034;exitY=0.272;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="64" target="67" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="-210" y="830" as="sourcePoint"/>
                         <mxPoint x="359.5" y="829.9999999999999" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="67" value="client-control" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" vertex="1" parent="1">
+                <mxCell id="67" value="client-control" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="1" vertex="1">
                     <mxGeometry x="870" y="40" width="100" height="870" as="geometry"/>
                 </mxCell>
-                <mxCell id="68" style="edgeStyle=none;html=1;startArrow=open;startFill=0;endArrow=open;endFill=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" edge="1" parent="67" source="69" target="67">
+                <mxCell id="68" style="edgeStyle=none;html=1;startArrow=open;startFill=0;endArrow=open;endFill=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="67" source="69" target="67" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="69" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" vertex="1" parent="67">
+                <mxCell id="69" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="67" vertex="1">
                     <mxGeometry x="45" y="240" width="10" height="170" as="geometry"/>
                 </mxCell>
                 <mxCell id="62" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="67" vertex="1">
                     <mxGeometry x="45" y="780" width="10" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="71" value="Zapisz informacje o pacjencie" style="endArrow=classic;html=1;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" edge="1" parent="1" source="67" target="9">
+                <mxCell id="71" value="Zapisz informacje o pacjencie" style="endArrow=classic;html=1;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="1" source="67" target="9" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="810" y="420" as="sourcePoint"/>
                         <mxPoint x="649.5" y="461.6200000000001" as="targetPoint"/>
@@ -169,37 +169,37 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="72" value="Potwierdź dokonanie zapisu" style="endArrow=none;dashed=1;html=1;startArrow=open;startFill=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;entryX=1.173;entryY=0.376;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="67" target="11">
+                <mxCell id="72" value="Potwierdź dokonanie zapisu" style="endArrow=none;dashed=1;html=1;startArrow=open;startFill=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;entryX=1.173;entryY=0.376;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="67" target="11" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="369.1666666666665" y="409.78" as="sourcePoint"/>
                         <mxPoint x="670" y="390" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="74" value="Wyświetl potwierdzenie zarejestrowania pacjenta" style="endArrow=none;dashed=1;html=1;startArrow=open;startFill=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;entryX=0.033;entryY=0.876;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="39" target="69">
+                <mxCell id="74" value="Wyświetl potwierdzenie zarejestrowania pacjenta" style="endArrow=none;dashed=1;html=1;startArrow=open;startFill=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;entryX=0.033;entryY=0.876;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="39" target="69" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="-210" y="410" as="sourcePoint"/>
                         <mxPoint x="900" y="430" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="75" value="Wyświelt potwierdzenie płatności" style="endArrow=none;dashed=1;html=1;startArrow=open;startFill=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;entryX=0.033;entryY=0.876;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+                <mxCell id="75" value="Wyświelt potwierdzenie płatności" style="endArrow=none;dashed=1;html=1;startArrow=open;startFill=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;entryX=0.033;entryY=0.876;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="-239.99666666666675" y="870" as="sourcePoint"/>
                         <mxPoint x="916.5000000000003" y="870" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="61" value="Zapisz plan leczenia" style="endArrow=classic;html=1;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;exitX=1.033;exitY=0.913;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" target="9" source="53">
+                <mxCell id="61" value="Zapisz plan leczenia" style="endArrow=classic;html=1;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;exitX=1.033;exitY=0.913;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="53" target="9" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="390" y="790" as="sourcePoint"/>
                         <mxPoint x="610" y="790" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="57" value="Zapisz wyniki badania" style="endArrow=classic;html=1;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;exitX=0.88;exitY=0.452;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" target="9" source="53">
+                <mxCell id="57" value="Zapisz wyniki badania" style="endArrow=classic;html=1;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;exitX=0.88;exitY=0.452;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="53" target="9" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="390" y="740" as="sourcePoint"/>
                         <mxPoint x="610" y="739" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="56" value="Wprowadź wyniki badana" style="endArrow=classic;html=1;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;entryX=-0.127;entryY=0.155;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="53" source="2">
+                <mxCell id="56" value="Wprowadź wyniki badana" style="endArrow=classic;html=1;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;entryX=-0.127;entryY=0.155;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" target="53" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="110" y="707" as="sourcePoint"/>
                         <mxPoint x="330" y="707" as="targetPoint"/>

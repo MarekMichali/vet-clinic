@@ -10,7 +10,7 @@
                 <mxCell id="2" value="" style="ellipse;fillColor=#F0F0F0;fontColor=#F0F0F0;strokeColor=#F0F0F0;" parent="7" vertex="1">
                     <mxGeometry x="85" y="30" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="Potwierdza w systemie fakt przybycia na badanie" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#F0F0F0;fillColor=#18141D;strokeColor=#F0F0F0;" parent="7" vertex="1">
+                <mxCell id="3" value="Potwierdź w systemie fakt przybycia na badanie" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#F0F0F0;fillColor=#18141D;strokeColor=#F0F0F0;" parent="7" vertex="1">
                     <mxGeometry x="40" y="100" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#F0F0F0;fillColor=#18141D;strokeColor=#F0F0F0;" parent="7" source="2" target="3" edge="1">
@@ -33,28 +33,28 @@
                 <mxCell id="18" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#F0F0F0;fillColor=#18141D;strokeColor=#F0F0F0;" parent="7" source="12" target="17" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="Przeglądanie informacji o pacjencie i historii jego badań" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#F0F0F0;fillColor=#18141D;strokeColor=#F0F0F0;" parent="7" vertex="1">
+                <mxCell id="12" value="Przeglądaj informacji o pacjencie i historii jego badań" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#F0F0F0;fillColor=#18141D;strokeColor=#F0F0F0;" parent="7" vertex="1">
                     <mxGeometry x="40" y="310" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="20" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#F0F0F0;fillColor=#18141D;strokeColor=#F0F0F0;" parent="7" source="17" target="19" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="Przeprowadza badanie i zapisuje wyniki" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#F0F0F0;fillColor=#18141D;strokeColor=#F0F0F0;" parent="7" vertex="1">
+                <mxCell id="17" value="Przeprowadź badanie i zapisz wyniki" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#F0F0F0;fillColor=#18141D;strokeColor=#F0F0F0;" parent="7" vertex="1">
                     <mxGeometry x="40" y="410" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="Aktualizuje plan leczenia pacjenta" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#F0F0F0;fillColor=#18141D;strokeColor=#F0F0F0;" parent="7" vertex="1">
+                <mxCell id="19" value="Zaktualizuj plan leczenia pacjenta" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#F0F0F0;fillColor=#18141D;strokeColor=#F0F0F0;" parent="7" vertex="1">
                     <mxGeometry x="40" y="500" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" value="Klient" style="swimlane;whiteSpace=wrap;html=1;fontColor=#F0F0F0;fillColor=#18141D;strokeColor=#F0F0F0;" parent="1" vertex="1">
                     <mxGeometry x="490" y="10" width="200" height="700" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="Rejestruje się do systemu" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#F0F0F0;fillColor=#18141D;strokeColor=#F0F0F0;" parent="8" vertex="1">
+                <mxCell id="9" value="Zarejestruj się do systemu" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#F0F0F0;fillColor=#18141D;strokeColor=#F0F0F0;" parent="8" vertex="1">
                     <mxGeometry x="40" y="200" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="24" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#F0F0F0;fillColor=#18141D;strokeColor=#F0F0F0;" parent="8" source="21" target="23" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="&amp;nbsp;Płaci za badanie" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#F0F0F0;fillColor=#18141D;strokeColor=#F0F0F0;" parent="8" vertex="1">
+                <mxCell id="21" value="&amp;nbsp;Zapłać za badanie" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#F0F0F0;fillColor=#18141D;strokeColor=#F0F0F0;" parent="8" vertex="1">
                     <mxGeometry x="40" y="500" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="23" value="" style="ellipse;html=1;shape=endState;fillColor=#F0F0F0;fontColor=#F0F0F0;strokeColor=#F0F0F0;" parent="8" vertex="1">
