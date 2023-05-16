@@ -1,10 +1,10 @@
 <mxfile host="65bd71144e">
     <diagram id="hrDizmAoiEksj0nWwZ9k" name="Page-1">
-        <mxGraphModel dx="1682" dy="359" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#18141D" math="0" shadow="0">
+        <mxGraphModel dx="2281" dy="932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#18141D" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="Pracownik" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=none;" parent="1" vertex="1">
+                <mxCell id="2" value="Pracownik" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="1" vertex="1">
                     <mxGeometry x="70" y="40" width="20" height="760" as="geometry"/>
                 </mxCell>
                 <mxCell id="6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="2" vertex="1">
@@ -108,6 +108,9 @@
                         <mxPoint x="350" y="420" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
+                <mxCell id="76" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-260" y="370" width="1080" height="330" as="geometry"/>
+                </mxCell>
                 <mxCell id="35" value="Zatwierdź i pobierz raport" style="endArrow=classic;html=1;exitX=1.374;exitY=0.615;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="1" source="6" target="3" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="100" y="490" as="sourcePoint"/>
@@ -138,17 +141,14 @@
                         <mxPoint x="-129.13" y="400" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="73" value="Anuluj generowanie raportu" style="text;html=1;strokeColor=#F0F0F0;fillColor=#18141D;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="1" vertex="1">
-                    <mxGeometry x="-90" y="420" width="90" height="30" as="geometry"/>
+                <mxCell id="73" value="Anuluj generowanie raportu" style="text;html=1;strokeColor=#F0F0F0;fillColor=#18141D;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#F0F0F0;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-90" y="410" width="90" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="74" value="Spróbuj wygenerować raport" style="text;html=1;strokeColor=#F0F0F0;fillColor=#18141D;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="1" vertex="1">
-                    <mxGeometry x="-90" y="310" width="90" height="30" as="geometry"/>
+                <mxCell id="74" value="Spróbuj wygenerować raport" style="text;html=1;strokeColor=#F0F0F0;fillColor=#18141D;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#F0F0F0;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-90" y="300" width="90" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="51" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="1" vertex="1">
                     <mxGeometry x="10" y="260" width="720" height="200" as="geometry"/>
-                </mxCell>
-                <mxCell id="76" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="1" vertex="1">
-                    <mxGeometry x="-260" y="370" width="1080" height="330" as="geometry"/>
                 </mxCell>
                 <mxCell id="77" value="" style="endArrow=none;dashed=1;html=1;exitX=0;exitY=0.331;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.002;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="1" source="76" target="76" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -171,10 +171,10 @@
                         <mxPoint x="-10" y="630" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="87" value="Zatwierdź generwanie projektu" style="text;html=1;strokeColor=#F0F0F0;fillColor=#18141D;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="1" vertex="1">
-                    <mxGeometry x="-100" y="560" width="90" height="30" as="geometry"/>
+                <mxCell id="87" value="Zatwierdź generwanie projektu" style="text;html=1;strokeColor=#F0F0F0;fillColor=#18141D;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#F0F0F0;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-100" y="560" width="90" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="88" value="Walidacja pozytywna" style="text;html=1;strokeColor=#F0F0F0;fillColor=#18141D;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="1" vertex="1">
+                <mxCell id="88" value="Walidacja pozytywna" style="text;html=1;strokeColor=#F0F0F0;fillColor=#18141D;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#F0F0F0;labelBackgroundColor=none;" parent="1" vertex="1">
                     <mxGeometry x="-90" y="660" width="90" height="30" as="geometry"/>
                 </mxCell>
             </root>

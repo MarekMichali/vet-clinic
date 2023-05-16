@@ -110,7 +110,7 @@
                 <mxCell id="10" value="Księgowy" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="1" vertex="1">
                     <mxGeometry x="90" y="740" width="30" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="Załóż konto w systemie" style="ellipse;whiteSpace=wrap;html=1;fontColor=#F0F0F0;fillColor=#18141D;strokeColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="1" vertex="1">
+                <mxCell id="15" value="Załóż konto w systemie" style="ellipse;whiteSpace=wrap;html=1;fontColor=#F0F0F0;fillColor=#18141D;strokeColor=#F0F0F0;labelBackgroundColor=none;" parent="1" vertex="1">
                     <mxGeometry x="480" y="710" width="120" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="17" value="Umów wizytę" style="ellipse;whiteSpace=wrap;html=1;fontColor=#F0F0F0;fillColor=#18141D;strokeColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="1" vertex="1">
@@ -130,13 +130,13 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="21" value="Sprawdź historię wizyt" style="ellipse;whiteSpace=wrap;html=1;fontColor=#F0F0F0;fillColor=#18141D;strokeColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="1" vertex="1">
+                <mxCell id="21" value="Sprawdź historię wizyt" style="ellipse;whiteSpace=wrap;html=1;fontColor=#F0F0F0;fillColor=#18141D;strokeColor=#F0F0F0;labelBackgroundColor=none;" parent="1" vertex="1">
                     <mxGeometry x="430" y="380" width="120" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="22" value="Sprzedaj towar" style="ellipse;whiteSpace=wrap;html=1;fontColor=#F0F0F0;fillColor=#18141D;strokeColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="1" vertex="1">
                     <mxGeometry x="580" y="810" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="Reklamuj przychodnię" style="ellipse;whiteSpace=wrap;html=1;fontColor=#F0F0F0;fillColor=#18141D;strokeColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="1" vertex="1">
+                <mxCell id="23" value="Reklamuj przychodnię" style="ellipse;whiteSpace=wrap;html=1;fontColor=#F0F0F0;fillColor=#18141D;strokeColor=#F0F0F0;labelBackgroundColor=none;" parent="1" vertex="1">
                     <mxGeometry x="240" y="770" width="120" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="62" value="&amp;lt;&amp;lt; Extends &amp;gt;&amp;gt;" style="edgeStyle=none;html=1;dashed=1;endArrow=none;endFill=0;startArrow=open;startFill=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="1" source="24" target="15" edge="1">
@@ -147,7 +147,7 @@
                 <mxCell id="24" value="Zatrudnij pracownika" style="ellipse;whiteSpace=wrap;html=1;fontColor=#F0F0F0;fillColor=#18141D;strokeColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="1" vertex="1">
                     <mxGeometry x="240" y="880" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="Przeprowadź badania" style="ellipse;whiteSpace=wrap;html=1;fontColor=#F0F0F0;fillColor=#18141D;strokeColor=#F0F0F0;labelBackgroundColor=#18141D;" parent="1" vertex="1">
+                <mxCell id="18" value="Przeprowadź badania" style="ellipse;whiteSpace=wrap;html=1;fontColor=#F0F0F0;fillColor=#18141D;strokeColor=#F0F0F0;labelBackgroundColor=none;" parent="1" vertex="1">
                     <mxGeometry x="240" y="480" width="120" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="69" style="edgeStyle=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#18141D;fontColor=#F0F0F0;fillColor=#18141D;strokeColor=#F0F0F0;" parent="1" source="63" target="18" edge="1">
