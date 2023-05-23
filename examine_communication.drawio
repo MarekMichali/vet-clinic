@@ -1,0 +1,96 @@
+<mxfile host="65bd71144e">
+    <diagram id="J3-gwADplvWaz73nWvPu" name="Page-1">
+        <mxGraphModel dx="1025" dy="885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#18141D" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="lekarz:Doctor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;shadow=0;labelBackgroundColor=#18141D;labelBorderColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="90" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;shadow=0;labelBackgroundColor=#18141D;labelBorderColor=none;" edge="1" parent="1" source="5" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" style="edgeStyle=none;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;shadow=0;labelBackgroundColor=#18141D;labelBorderColor=none;" edge="1" parent="1" source="5" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="workerControl: worker-control" style="rounded=0;html=1;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;shadow=0;labelBackgroundColor=#18141D;labelBorderColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="90" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="dbManager: DB manager" style="rounded=0;html=1;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;shadow=0;labelBackgroundColor=#18141D;labelBorderColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="550" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="endArrow=classic;html=1;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;shadow=0;labelBackgroundColor=#18141D;labelBorderColor=none;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="230" y="140" as="sourcePoint"/>
+                        <mxPoint x="510" y="140" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="1. Potwierdź przybycie pacjenta&lt;br&gt;4. Pobierz informacje o pacjencie&lt;br&gt;8. Wprowadź wyniki badania&lt;br&gt;10. Wprowadź plan leczenia" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;shadow=0;labelBackgroundColor=#18141D;labelBorderColor=none;" vertex="1" connectable="0" parent="7">
+                    <mxGeometry x="-0.275" y="-1" relative="1" as="geometry">
+                        <mxPoint x="19" y="39" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="" style="endArrow=classic;html=1;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;shadow=0;labelBackgroundColor=#18141D;labelBorderColor=none;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="510" y="100" as="sourcePoint"/>
+                        <mxPoint x="230" y="100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="7. Wyświelt informacje o pacjencie" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;shadow=0;labelBackgroundColor=#18141D;labelBorderColor=none;" vertex="1" connectable="0" parent="9">
+                    <mxGeometry x="0.1934" y="-1" relative="1" as="geometry">
+                        <mxPoint x="17" y="-29" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="2. Sprawdź czy pacjent jest zarejestrowany&lt;br&gt;5. Pobierz informacje o pacjencie&lt;br&gt;9. Zapisz wyniki badannia&lt;br&gt;11. Zapisz plan leczenia" style="endArrow=classic;html=1;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;shadow=0;labelBackgroundColor=#18141D;labelBorderColor=none;" edge="1" parent="1">
+                    <mxGeometry x="-0.125" y="-120" width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="630" y="180" as="sourcePoint"/>
+                        <mxPoint x="630" y="500" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="" style="endArrow=classic;html=1;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;shadow=0;labelBackgroundColor=#18141D;labelBorderColor=none;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="670" y="490" as="sourcePoint"/>
+                        <mxPoint x="670" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="3. Pacjent jest zarejestrowany&lt;br&gt;6. Zwróc informacje o pacjencie" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;shadow=0;labelBackgroundColor=#18141D;labelBorderColor=none;" vertex="1" connectable="0" parent="12">
+                    <mxGeometry x="0.1285" y="-4" relative="1" as="geometry">
+                        <mxPoint x="106" y="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;shadow=0;labelBackgroundColor=#18141D;labelBorderColor=none;" edge="1" parent="1" source="14" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="client:Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;shadow=0;labelBackgroundColor=#18141D;labelBorderColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="400" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="clientControl: client-control" style="rounded=0;html=1;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;shadow=0;labelBackgroundColor=#18141D;labelBorderColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="400" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="endArrow=classic;html=1;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;shadow=0;labelBackgroundColor=#18141D;labelBorderColor=none;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="300" y="400" as="sourcePoint"/>
+                        <mxPoint x="200" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="12. Opłać wizytę" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;shadow=0;labelBackgroundColor=#18141D;labelBorderColor=none;" vertex="1" connectable="0" parent="18">
+                    <mxGeometry x="0.1934" y="-1" relative="1" as="geometry">
+                        <mxPoint x="10" y="81" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="" style="endArrow=classic;html=1;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;shadow=0;labelBackgroundColor=#18141D;labelBorderColor=none;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="200" y="459.2" as="sourcePoint"/>
+                        <mxPoint x="300" y="459.2" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="13. Wyświetl potwierdzenie płatności" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;shadow=0;labelBackgroundColor=#18141D;labelBorderColor=none;" vertex="1" connectable="0" parent="20">
+                    <mxGeometry x="0.1934" y="-1" relative="1" as="geometry">
+                        <mxPoint y="-71" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
