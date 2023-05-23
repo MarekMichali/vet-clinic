@@ -308,7 +308,7 @@
                 <mxCell id="112" value="worker-control" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#18141D;strokeColor=#F0F0F0;fontColor=#F0F0F0;labelBackgroundColor=none;" parent="1" vertex="1">
                     <mxGeometry x="292.5" y="-250" width="165" height="108" as="geometry"/>
                 </mxCell>
-                <mxCell id="169" value="- Schedule: Schedule" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#F0F0F0;labelBackgroundColor=none;" parent="112" vertex="1">
+                <mxCell id="169" value="- Schedule: Schedule" style="text;strokeColor=#F0F0F0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#F0F0F0;labelBackgroundColor=none;" parent="112" vertex="1">
                     <mxGeometry y="30" width="165" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="173" value="+ CreatePerson(): Person " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#F0F0F0;labelBackgroundColor=none;" parent="112" vertex="1">
